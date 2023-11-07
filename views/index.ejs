@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+<body>
+
+<h2>Student Information</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Row No</th>
+            <th>Name</th>
+            <th>Location</th>
+            <th>CGPA</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>New York</td>
+            <td>3.8</td>
+            <td>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>451</td>
+            <td>Jane Smith</td>
+            <td>Los Angeles</td>
+            <td>3.9</td>
+            <td>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <form action="/students" method="POST">
+            <td><input type="number" name="roll" id=""></td>
+            <td><input type="text" name="name"></td>
+            <td><input type="text" name="loc" id=""></td>
+            <td><input type="number" name="cgpa" id=""></td>
+            <td>
+                <button type="submit">Add</button>
+            </td>
+            </form>
+        </tr>
+        <!-- You can add more rows here -->
+    </tbody>
+</table>
+
+</body>
+</html>
